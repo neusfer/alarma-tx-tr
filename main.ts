@@ -7,7 +7,7 @@ basic.forever(function () {
     let alarma = 0
     if (alarma == 1) {
         basic.showIcon(IconNames.Sad)
-    } else if (alarma == 1) {
+    } else if (alarma == 0) {
         basic.showIcon(IconNames.Happy)
     }
 })
